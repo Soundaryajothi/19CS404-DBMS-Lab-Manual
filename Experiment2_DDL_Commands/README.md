@@ -1,4 +1,6 @@
 # Experiment 2: DDL Commands
+# NAME:SOUNDARYA.J
+# REG NO:21222322018
 
 ## AIM
 To study and implement DDL commands and different types of constraints.
