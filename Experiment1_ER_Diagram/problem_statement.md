@@ -52,10 +52,9 @@ Design a database for patient management, appointments, medical records, and bil
 **Hospital**
 
 ### ER Diagram:
-**HOSPITAL DATABASE:** 
+**HOSPITAL DATABASE:**
 
-
-
+![DBMS EX1](https://github.com/user-attachments/assets/7cd465bd-45b2-41fa-8ca0-e4e989a491d2)
 
 ### Entities and Attributes:
 
