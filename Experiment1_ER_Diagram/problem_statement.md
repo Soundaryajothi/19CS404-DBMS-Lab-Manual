@@ -44,3 +44,74 @@ Design a database for patient management, appointments, medical records, and bil
 4. Explain:
    - Why you chose the entities and relationships.
    - How you modeled prerequisites or billing.
+# ER Diagram Submission 
+# NAME:SOUNDARYA J
+# REG NO:212223220108
+
+### Scenario Chosen:
+**Hospital**
+
+### ER Diagram:
+**HOSPITAL DATABASE:** 
+
+
+
+
+### Entities and Attributes:
+
+- **Patient**: Name, Phone Number, Address, Insurance Company  
+- **Doctor**: Name, Hospital ID, Specialization, Department  
+- **Nurse**: Name, Hospital ID  
+- **Receptionist**: Entry & Exit Time  
+- **Pharmacy**: Medicine Name, Medicine Type, DOM, DOE  
+- **Rooms**: RNO, Floor  
+- **Records**: Record No, Date  
+
+---
+
+### Relationships and Constraints:
+
+- **Allocated To** between *Patient* and *Rooms*  
+  - Cardinality: One-to-One  
+  - Participation: Total on patient  
+
+- **Consults** between *Patient* and *Doctor*  
+  - Cardinality: Many-to-Many  
+  - Participation: Partial  
+
+- **Guides** between *Nurse* and *Patient*  
+  - Cardinality: One-to-Many  
+  - Participation: Partial  
+
+- **Instructs** between *Doctor* and *Nurse*  
+  - Cardinality: One-to-Many  
+  - Participation: Partial  
+
+- **Maintains** between *Receptionist* and *Records*  
+  - Cardinality: One-to-Many  
+  - Participation: Total on records  
+
+- **Purchase Medicines** between *Patient* and *Pharmacy*  
+  - Cardinality: One-to-Many  
+  - Participation: Partial  
+
+---
+
+### Extension (Billing):
+
+The billing aspect is indirectly modeled through the **"Purchase Medicines"** relationship between the **Patient** and **Pharmacy**, where details such as **DOM (Date of Manufacture)** and **DOE (Date of Expiry)** are tracked. This implies billing and inventory tracking. Additionally, doctor consultations and room allocations are billable services implicitly modeled in the relationships.
+
+---
+
+### Design Choices:
+
+Entities were selected based on real-world hospital workflow components: patients, rooms, doctors, nurses, pharmacists, and receptionists. Relationships like *consults*, *guides*, *instructs*, and *allocated to* reflect real interactions and responsibilities.  
+Billing was incorporated through the pharmacy-patient connection and service interactions. Cardinality and participation were based on logical constraints (e.g., a patient is allocated one room, but a doctor can consult many patients).
+
+---
+
+### RESULT
+
+Successfully completed the ER diagram for the hospital database scenario, including all necessary entities, relationships, attributes, constraints, and billing logic as required.
+
+
