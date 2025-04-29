@@ -255,7 +255,9 @@ create table Customers(CustomerID INTEGER,Name TEXT,Email TEXT,JoinDate DATETIME
 
 ## GRADES:
 
-![image](https://github.com/user-attachments/assets/12ee4a0a-f8d5-4063-aa3e-6579e529558c)
+
+![image](https://github.com/user-attachments/assets/fcb365c5-07e5-4e7c-9858-5620f269cd4f)
+
 
 ## RESULT
 Thus, the SQL queries to implement different types of constraints and DDL commands have been executed successfully.
