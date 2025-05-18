@@ -1,4 +1,6 @@
 # Experiment 6: PL/SQL – Variables, Control Structures and Loops
+# NAME: SOUNDARYA J
+# REG NO: 212223220108
 
 ## AIM
 To write and execute simple PL/SQL programs using variables, loops, and conditional statements.
