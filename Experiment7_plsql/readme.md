@@ -33,9 +33,10 @@ END;
 - Declare two numeric variables and initialize them.
 - Use an `IF` statement to compare the values.
 - Display the greater number using `DBMS_OUTPUT.PUT_LINE`.
-- ### Program:
--  ```
-  DECLARE
+
+### Program:
+```
+DECLARE
     a NUMBER := 50;
     b NUMBER := 80;
 BEGIN
@@ -45,10 +46,11 @@ BEGIN
         DBMS_OUTPUT.PUT_LINE('Greater number is: ' || b);
     END IF;
 END;
-``
-
+```
 **Expected Output:**  
 Greater number is: 80
+### Otput:
+![image](https://github.com/user-attachments/assets/8300134d-8592-4830-af65-ae991c2171ac)
 
 ---
 
